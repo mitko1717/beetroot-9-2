@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "font24b76c23a1f336d9579b7f3447f9812c";
+
+  src: url("https://nomail.com.ua/files/eot/24b76c23a1f336d9579b7f3447f9812c.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://nomail.com.ua/files/woff/24b76c23a1f336d9579b7f3447f9812c.woff")
+      format("woff"),
+    url("https://nomail.com.ua/files/woff2/24b76c23a1f336d9579b7f3447f9812c.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "MuseoSansRounded-100";
+  src: local("MuseoSansRounded-100"),
+    url("https://nomail.com.ua/files/woff/24b76c23a1f336d9579b7f3447f9812c.woff")
+      format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  min-height: 900px;
+  align-items: center;
+}
+
+.section {
+  background: url(img/back.png) no-repeat center center fixed;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 600px;
+}
+
+.main {
+  width: 686px;
+  height: 391px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  background-color: #111a28;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 424px;
+  height: 391px;
+}
+
+.page__logo-img {
+  width: 65px;
+  height: 33px;
+  margin: 25px 0 0 20px;
+}
+
+.page__img-foto {
+  width: 329px;
+  height: 159px;
+  margin: 35px 60px 0 35px;
+  justify-content: center;
+}
+
+.page__pics {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.pics__block {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 60px;
+  height: 15px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.block__round {
+  width: 10px;
+  height: 9px;
+  list-style-type: none;
+}
+
+.block__round-bigger {
+  width: 12px;
+  height: 12px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.main__section-div {
+  display: flex;
+  flex-direction: column;
+  height: 391px;
+  margin-left: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.main-section {
+  width: 252px;
+  min-height: 245px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+.main-section__title {
+  width: 160px;
+  height: 48px;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  opacity: 0.7;
+}
+
+.main-section__text {
+  width: 172px;
+  height: 14px;
+  opacity: 0.34;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.section__dropdowns {
+  display: flex;
+}
+
+.dropdowns__dropdown {
+  width: 69px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  opacity: 0.26;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1px;
+  align-items: center;
+}
+
+.dropdowns__dropdown-text {
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 0.28px;
+  display: flex;
+}
+
+.dropdowns__dropdown-text::after {
+  content: url(img/Rectangl.svg);
+  width: 12px;
+  height: 6px;
+  margin-left: 6px;
+}
+
+.section__btn {
+  width: 184px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #4c525a;
+  opacity: 0.26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__btn-button {
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+}
+
+.stars__list-item {
+  display: flex;
+  list-style-type: none;
+}
+
+.list-item__star {
+  margin-right: 2px;
+  fill: white;
+}
+
+.list-item__star-golden {
+  fill: gold;
+}
